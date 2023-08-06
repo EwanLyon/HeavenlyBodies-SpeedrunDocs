@@ -1,10 +1,10 @@
 {
-	"game": "Test Game",
-	"speedrun.com": "",
+	"game": "Heavenly Bodies",
+	"speedrun.com": "heavenly_bodies",
 	"github": {
 		"username":	"EwanLyon",
-		"projectName": "speedrun-docs"
+		"projectName": "heavenlybodies-speedrundocs"
 	},
 	"url": "https://EwanLyon.github.io/",
-	"discord": ""
+	"discord": "https://discord.com/invite/kX5VkK4"
 }

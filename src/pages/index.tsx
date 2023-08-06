@@ -6,7 +6,8 @@ import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 
-import SpeeddocsLogo from '@site/static/img/run-man.svg';
+import SpeeddocsLogo from '@site/static/img/HB-SpeedDocs-Logo.svg';
+import SpeedrunDocsConfig from '@site/speeddocs.json';
 
 interface Card {
 	title: string;
@@ -28,13 +29,13 @@ const cards: Card[] = [
 	},
 	{
 		title: 'Leaderboards',
-		subtitle: 'speedrun.com/Game',
-		link: 'https://speedrun.com/',
+		subtitle: `speedrun.com/${SpeedrunDocsConfig['speedrun.com']}`,
+		link: `https://speedrun.com/${SpeedrunDocsConfig['speedrun.com']}`,
 	},
 	{
 		title: 'Discord',
 		subtitle: 'Talk about new strategies or ask for help in the Discord!',
-		link: 'https://discord.gg/',
+		link: SpeedrunDocsConfig.discord,
 	},
 ];
 
@@ -47,7 +48,7 @@ export default function Home() {
 					<header className={styles.header}>
 						<SpeeddocsLogo />
 						{/* <img src={SpeeddocsLogo} alt="Speeddocs logo" /> */}
-						<h1 className={styles.title}>{siteConfig.title} Speedrun Docs</h1>
+						<h1 className={styles.title}>{siteConfig.title}</h1>
 					</header>
 					<div className={styles.cards}>
 						{cards.map((card, i) => (

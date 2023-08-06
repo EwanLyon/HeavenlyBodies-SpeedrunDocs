@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: `${speeddocsConfig.game} Docs`,
+  title: `${speeddocsConfig.game} Speedrun Docs`,
   favicon: 'img/favicon.ico',
   url: speeddocsConfig.url,
   baseUrl: `/${speeddocsConfig.github.projectName}`,
@@ -51,8 +51,8 @@ const config = {
       navbar: {
         title: `${speeddocsConfig.game} Speedrun Docs`,
         logo: {
-          alt: 'Speedrun Docs Logo',
-          src: 'img/run-man.svg',
+          alt: 'Heavenly Bodies Speedrun Docs Logo',
+          src: 'img/HB-SpeedDocs-Logo.svg',
         },
         items: [
           {
