@@ -24,7 +24,7 @@ const cards: Card[] = [
 	},
 	{
 		title: 'Resources',
-		subtitle: 'Speedrun Mods, Save Files, Splits',
+		subtitle: 'Speedrun Splits',
 		link: '/docs/resources',
 	},
 	{

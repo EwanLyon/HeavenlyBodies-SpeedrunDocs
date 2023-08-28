@@ -38,6 +38,9 @@
   --ifm-heading-color: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
+	--ifm-table-border-color: #ffffff;
+	--ifm-table-border-width: 0px;
+
   --speeddocs-primary: #000000;
   --speeddocs-secondary: #000000;
   --speeddocs-accent: #ffffff;
@@ -53,4 +56,20 @@
 
 .navbar {
   border-bottom: 1px solid var(--speeddocs-accent);
+}
+
+table {
+	display: table;
+	width: fit-content;
+	border-spacing: 0;
+	border-collapse: separate;
+	border-radius: 16px;
+	border: thin solid var(--ifm-table-border-color);
+	overflow: hidden;
+
+	min-width: 150px;
+}
+
+thead {
+	background-color: var(--speeddocs-secondary) !important;
 }

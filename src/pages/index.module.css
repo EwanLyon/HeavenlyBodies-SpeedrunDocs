@@ -33,6 +33,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding: 2rem 0.5rem;
 }
 
 .header {
@@ -43,7 +44,7 @@ main {
 }
 
 .header svg {
-  height: 8rem;
+  height: 20vh;
   width: auto;
 
   filter: var(--logo-filter);
@@ -53,6 +54,8 @@ main {
   margin-bottom: 3rem;
   font-size: 3rem;
   color: var(--ifm-heading-color);
+  text-align: center;
+  text-wrap: balance;
 }
 
 .cards {
@@ -72,6 +75,7 @@ main {
   align-items: center;
   border: 1px solid var(--speeddocs-accent);
   text-align: center;
+  text-wrap: balance;
 
   color: var(--ifm-font-color-base);
   animation: 1s ease-out 0s 1 cardFadeIn;
@@ -94,5 +98,36 @@ main {
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    height: 100%;
+  }
+
+  .card p {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card {
+    width: 100%;
   }
 }
