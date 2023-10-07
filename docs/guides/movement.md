@@ -10,6 +10,9 @@ sidebar_position: 2
 
 By moving your arms back and forth you will swim through the air. This is used to move quickly. This cannot be done in Newtonian.
 
+![Swimming](../../static/img/swimming.png)
+
+
 ## Movement types
 
 ### Classic
