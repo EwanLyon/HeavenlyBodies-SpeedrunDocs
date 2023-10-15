@@ -20,6 +20,8 @@ This is all very in development! The way the website is structured, the way guid
 - RTA Timing
   - Starts after the first cutscene has been skipped.
   - Stops when the Heavenly Bodies logo appears before the credits.
+ 
+- Glitches that allow you to progress the game while the in game Speedrun timer is paused is not allowed.
 
 ### Cleanup DLC
 
@@ -50,7 +52,7 @@ For 100% all things in the Operations Manual to be checked off. This does requir
 - Play in Newtonian
 
 :::note
-Repairing the crane arms will *not* tick off assembling the telescope without arms. To complete this make the telescope without using the arms. Once deployed you can repair the arms.
+Repairing the crane arms will *not* tick off assembling the telescope without arms. To complete this, make the telescope without using the arms. Once the telescope has been deployed you can repair the arms.
 :::
 
 #### 4. Minerals
