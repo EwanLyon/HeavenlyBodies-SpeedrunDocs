@@ -2,18 +2,14 @@
 
 ## Route
 
-1. Lift to pull lever early
-2. Navigate to button and grab paper
-3. Reload Checkpoint
-4. Plug in power
-   - Try to align yourself parallel to the plugs so your body pushes them in
-5. Flip lever
-6. Reload Checkpoint
-7. Move to the locked door
-8. Grab close to the centre of the door and pull up and outwards.
-9. Reload Checkpoint
-10. Open airlock
-11. Use the air pressure to help move around and out of the station
-12. Wind solar panels
-13. Reload Checkpoint
-14. Swim to Console
+1. Swing left and right and grab the left wal
+2. Pull yourself up and grab lever
+3. Pull the lever down at the same time it docks. If done correctly, the capsle will become undocked
+   - This requires very precise timing
+5. Pull yourself though the gap, and around to the right
+6. Float towards the solar panels
+7. Wind solar panels
+8. Reload checkpoint
+9. Swim to Console as normal
+10. Grab radio
+    - If you are in a cutscene while you beat the level, it glitches. Try to avoid pushing the button
